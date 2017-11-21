@@ -1,0 +1,9 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
+  <Target Name="CopySeleniumServerToBin" BeforeTargets="AfterBuild">
+    <PropertyGroup>
+      <SeleniumServerSrcPath>$(MSBuildThisFileDirectory)..\server\selenium-server-standalone.jar</SeleniumServerSrcPath>
+      <SeleniumServerTargetPath Condition=" '$(SeleniumServerTargetPath)' == '' ">$(TargetDir)</SeleniumServerTargetPath>
+    </PropertyGroup>
+    <Copy SourceFiles="$(SeleniumServerSrcPath)" DestinationFiles="$(SeleniumServerTargetPath)selenium-server-standalone.jar" SkipUnchangedFiles="true"></Copy>
+  </Target>
+</Project>
