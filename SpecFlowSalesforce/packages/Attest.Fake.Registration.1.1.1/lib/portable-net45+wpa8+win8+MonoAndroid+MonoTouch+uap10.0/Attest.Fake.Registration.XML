@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Attest.Fake.Registration</name>
+    </assembly>
+    <members>
+        <member name="T:Attest.Fake.Registration.RegistrationHelper">
+            <summary>
+            Provides utilities for registering different types of fake objects into IoC containerRegistrator
+            </summary>
+        </member>
+        <member name="M:Attest.Fake.Registration.RegistrationHelper.RegisterInstance``1(Solid.Practices.IoC.IIocContainerRegistrator,``0)">
+            <summary>
+            Registers service instance into the ioc container.
+            </summary>
+            <typeparam name="TService">The type of service.</typeparam>
+            <param name="containerRegistrator">The ioc container registrator.</param>
+            <param name="instance">The instance to be registered.</param>        
+        </member>
+        <member name="M:Attest.Fake.Registration.RegistrationHelper.RegisterSingleton``2(Solid.Practices.IoC.IIocContainerRegistrator)">
+            <summary>
+            Registers the service in the singleton mode.
+            </summary>
+            <typeparam name="TService">The type of the service.</typeparam>
+            <typeparam name="TImplementation">The type of the implementation.</typeparam>
+            <param name="containerRegistrator">The ioc container registrator.</param>
+        </member>
+        <member name="M:Attest.Fake.Registration.RegistrationHelper.RegisterTransient``2(Solid.Practices.IoC.IIocContainerRegistrator)">
+            <summary>
+            Registers the service in the transient mode.
+            </summary>
+            <typeparam name="TService">The type of the service.</typeparam>
+            <typeparam name="TImplementation">The type of the implementation.</typeparam>
+            <param name="containerRegistrator">The ioc container registrator.</param>
+        </member>
+        <member name="M:Attest.Fake.Registration.RegistrationHelper.RegisterBuilder``1(Solid.Practices.IoC.IIocContainerRegistrator,Attest.Fake.Builders.FakeBuilderBase{``0})">
+            <summary>
+            Builds service from its builder and registers it into the ioc container.
+            </summary>
+            <typeparam name="TService">The type of the service.</typeparam>
+            <param name="containerRegistrator">The ioc container registrator.</param>
+            <param name="builder">The service builder.</param>
+        </member>
+        <member name="M:Attest.Fake.Registration.RegistrationHelper.RegisterFake``1(Solid.Practices.IoC.IIocContainerRegistrator,Attest.Fake.Core.IFake{``0})">
+            <summary>
+            Registers service fake into the ioc container registrator.
+            </summary>
+            <typeparam name="TService">The type of service.</typeparam>
+            <param name="containerRegistrator">The ioc container registrator.</param>
+            <param name="fake">The fake to be registered.</param>
+        </member>
+        <member name="M:Attest.Fake.Registration.RegistrationHelper.RegisterMock``1(Solid.Practices.IoC.IIocContainerRegistrator,Attest.Fake.Core.IMock{``0})">
+            <summary>
+            Registers service mock into the ioc container registrator.
+            </summary>
+            <typeparam name="TService">The type of the service.</typeparam>
+            <param name="containerRegistrator">The ioc container registrator.</param>
+            <param name="mock">The mock to be registered.</param>
+        </member>
+        <member name="M:Attest.Fake.Registration.RegistrationHelper.Resolve``1(Solid.Practices.IoC.IIocContainerResolver)">
+            <summary>
+            Resolves service from the ioc container.
+            </summary>
+            <typeparam name="TService">The type of the service.</typeparam>
+            <param name="containerResolver">The ioc container resolver.</param>
+            <returns>The resolved service.</returns>
+        </member>
+    </members>
+</doc>

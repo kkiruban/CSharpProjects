@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Solid.Practices.IoC</name>
+    </assembly>
+    <members>
+        <member name="T:Solid.Practices.IoC.IIocContainer">
+            <summary>
+            Represents Inversion-Of-Control container.
+            </summary>
+        </member>
+        <member name="T:Solid.Practices.IoC.IIocContainerRegistrator">
+            <summary>
+            Allows registering dependencies into the IoC container.
+            </summary>
+        </member>
+        <member name="M:Solid.Practices.IoC.IIocContainerRegistrator.RegisterTransient``2">
+            <summary>
+            Registers dependency in a transient lifetime style.
+            </summary>
+            <typeparam name="TService">Type of dependency declaration.</typeparam>
+            <typeparam name="TImplementation">Type of dependency implementation.</typeparam>
+        </member>
+        <member name="M:Solid.Practices.IoC.IIocContainerRegistrator.RegisterTransient``1">
+            <summary>
+            Registers dependency in a transient lifetime style.
+            </summary>
+            <typeparam name="TService">Type of dependency.</typeparam>
+        </member>
+        <member name="M:Solid.Practices.IoC.IIocContainerRegistrator.RegisterTransient(System.Type,System.Type)">
+            <summary>
+            Registers dependency in a transient lifetime style.
+            </summary>
+            <param name="serviceType">Type of dependency declaration.</param>
+            <param name="implementationType">Type of dependency implementation.</param>
+        </member>
+        <member name="M:Solid.Practices.IoC.IIocContainerRegistrator.RegisterSingleton``2">
+            <summary>
+            Registers dependency as a singleton.
+            </summary>
+            <typeparam name="TService">Type of dependency declaration.</typeparam>
+            <typeparam name="TImplementation">Type of dependency implementation.</typeparam>
+        </member>
+        <member name="M:Solid.Practices.IoC.IIocContainerRegistrator.RegisterSingleton(System.Type,System.Type)">
+            <summary>
+            Registers dependency as a singleton.
+            </summary>
+            <param name="serviceType">Type of dependency declaration.</param>
+            <param name="implementationType">Type of dependency implementation.</param>        
+        </member>
+        <member name="M:Solid.Practices.IoC.IIocContainerRegistrator.RegisterInstance``1(``0)">
+            <summary>
+            Registers an instance of dependency.
+            </summary>
+            <typeparam name="TService">Type of dependency.</typeparam>
+            <param name="instance">Instance of dependency.</param>
+        </member>
+        <member name="M:Solid.Practices.IoC.IIocContainerRegistrator.RegisterInstance(System.Type,System.Object)">
+            <summary>
+            Registers an instance of dependency.
+            </summary>
+            <param name="dependencyType">Type of dependency.</param>
+            <param name="instance">Instance of dependency.</param>
+        </member>
+        <member name="M:Solid.Practices.IoC.IIocContainerRegistrator.RegisterHandler(System.Type,System.Func{System.Object})">
+            <summary>
+            Registers the dependency via the handler.
+            </summary>
+            <param name="dependencyType">Type of the dependency.</param>
+            <param name="handler">The handler.</param>
+        </member>
+        <member name="M:Solid.Practices.IoC.IIocContainerRegistrator.RegisterHandler``1(System.Func{``0})">
+            <summary>
+            Registers the dependency via the handler.
+            </summary>
+            <param name="handler">The handler.</param>
+        </member>
+        <member name="M:Solid.Practices.IoC.IIocContainerRegistrator.RegisterCollection``1(System.Collections.Generic.IEnumerable{System.Type})">
+            <summary>
+            Registers the collection of the dependencies.
+            </summary>
+            <typeparam name="TService">The type of the service.</typeparam>
+            <param name="dependencyTypes">The dependency types.</param>
+        </member>
+        <member name="M:Solid.Practices.IoC.IIocContainerRegistrator.RegisterCollection``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Registers the collection of the dependencies.
+            </summary>
+            <typeparam name="TService">The type of the service.</typeparam>
+            <param name="dependencies">The dependencies.</param>
+        </member>
+        <member name="M:Solid.Practices.IoC.IIocContainerRegistrator.RegisterCollection(System.Type,System.Collections.Generic.IEnumerable{System.Type})">
+            <summary>
+            Registers the collection of the dependencies.
+            </summary>        
+            <param name="dependencyType">The dependency type.</param>
+            <param name="dependencyTypes">The dependency types.</param>
+        </member>
+        <member name="M:Solid.Practices.IoC.IIocContainerRegistrator.RegisterCollection(System.Type,System.Collections.Generic.IEnumerable{System.Object})">
+            <summary>
+            Registers the collection of the dependencies.
+            </summary>        
+            <param name="dependencyType">The dependency type.</param>
+            <param name="dependencies">The dependencies.</param>
+        </member>
+        <member name="T:Solid.Practices.IoC.IIocContainerResolver">
+            <summary>
+            Represents object that is capable of resolving services from the IoC container.
+            </summary>
+        </member>
+        <member name="M:Solid.Practices.IoC.IIocContainerResolver.Resolve``1">
+            <summary>
+            Resolves an instance of service.
+            </summary>
+            <typeparam name="TService">The type of the service.</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Solid.Practices.IoC.IIocContainerResolver.Resolve(System.Type)">
+            <summary>
+            Resolves an instance of service according to the service type.
+            </summary>
+            <param name="serviceType">The type of the service.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Solid.Practices.IoC.IIocContainerScoped">
+            <summary>
+            Represents means of registering a dependency whose lifetime is bound
+            to the lifetime of another object.
+            </summary>
+        </member>
+        <member name="M:Solid.Practices.IoC.IIocContainerScoped.RegisterScoped(System.Func{System.Object},System.Type,System.Type)">
+            <summary>
+            Registers the dependency per lifetime of another object.
+            </summary>
+            <param name="lifetimeProvider">The lifetime scope.</param>
+            <param name="service">The service.</param>
+            <param name="implementation">The implementation.</param>
+        </member>
+        <member name="M:Solid.Practices.IoC.IIocContainerScoped.RegisterScoped``2(System.Func{System.Object})">
+            <summary>
+            Registers the dependency per lifetime of another object.
+            </summary>
+            <typeparam name="TService">The type of the service.</typeparam>
+            <typeparam name="TImplementation">The type of the implementation.</typeparam>
+            <param name="lifetimeProvider">The lifetime provider.</param>
+        </member>
+        <member name="M:Solid.Practices.IoC.IIocContainerScoped.RegisterScoped``1(System.Func{System.Object})">
+            <summary>
+            Registers the dependency per lifetime of another object.
+            </summary>
+            <typeparam name="TService">The type of the service.</typeparam>
+            <param name="lifetimeProvider">The lifetime provider.</param>
+        </member>
+        <member name="T:Solid.Practices.IoC.IIocContainerAdapter">
+            <summary>
+            Represents an adapter to an Inversion-Of-Control container.
+            This is a marker interface.
+            </summary>
+        </member>
+        <member name="T:Solid.Practices.IoC.IIocContainerAdapter`1">
+            <summary>
+            Represents an adapter to the concrete Inversion-Of-Control container.
+            This is a marker interface.
+            </summary>
+            <typeparam name="TContainer">The type of the concrete Inversion-Of-Control container.</typeparam>
+        </member>
+    </members>
+</doc>

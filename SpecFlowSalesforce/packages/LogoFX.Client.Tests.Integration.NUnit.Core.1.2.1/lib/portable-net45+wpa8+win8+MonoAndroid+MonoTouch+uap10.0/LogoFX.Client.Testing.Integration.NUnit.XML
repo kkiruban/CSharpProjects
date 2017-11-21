@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LogoFX.Client.Testing.Integration.NUnit</name>
+    </assembly>
+    <members>
+        <member name="T:LogoFX.Client.Testing.Integration.NUnit.BuilderRegistrationService">
+            <summary>
+            Represents builder registration service for NUnit-based integration tests.
+            </summary>
+            <seealso cref="T:Attest.Testing.NUnit.StepsBase" />
+            <seealso cref="T:LogoFX.Client.Testing.Contracts.IBuilderRegistrationService" />
+        </member>
+    </members>
+</doc>

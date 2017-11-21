@@ -1,0 +1,468 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Attest.Testing.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Attest.Testing.Core.EndToEndTestsBase">
+            <summary>
+            Base class for all End-To-End fixtures
+            </summary>    
+        </member>
+        <member name="T:Attest.Testing.Core.IInitializationParameters`1">
+            <summary>
+            Represents test/scenario initialization parameters.
+            </summary>
+            <typeparam name="TContainer">The type of the ioc container.</typeparam>
+        </member>
+        <member name="P:Attest.Testing.Core.IInitializationParameters`1.IocContainer">
+            <summary>
+            Gets the ioc container.
+            </summary>
+            <value>
+            The ioc container.
+            </value>
+        </member>
+        <member name="T:Attest.Testing.Core.IInitializationParametersManager`1">
+            <summary>
+            Represents means of retrieving <see cref="T:Attest.Testing.Core.IInitializationParameters`1" />
+            </summary>
+            <typeparam name="TContainer">The type of the ioc container.</typeparam>
+        </member>
+        <member name="M:Attest.Testing.Core.IInitializationParametersManager`1.GetInitializationParameters">
+            <summary>
+            Gets the initialization parameters.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Attest.Testing.Core.ContainerInitializationParametersManager`2">
+            <summary>
+            Represents means of retrieving <see cref="T:Attest.Testing.Core.IInitializationParameters`1" /> for given bootstrapper and ioc container.
+            </summary>
+            <typeparam name="TBootstrapper">The type of the bootstrapper.</typeparam>
+            <typeparam name="TContainer">The type of the ioc container.</typeparam>
+            <seealso cref="T:Attest.Testing.Core.IInitializationParametersManager`1" />
+        </member>
+        <member name="M:Attest.Testing.Core.ContainerInitializationParametersManager`2.#ctor(Attest.Testing.Core.InitializationParametersResolutionStyle)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Attest.Testing.Core.ContainerInitializationParametersManager`2"/> class.
+            </summary>
+            <param name="initializationParametersResolutionStyle">The initialization parameters resolution style.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.ContainerInitializationParametersManager`2.GetInitializationParameters">
+            <summary>
+            Gets the initialization parameters.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Attest.Testing.Core.ContainerAdapterInitializationParametersManager`1">
+            <summary>
+            Represents means of retrieving <see cref="T:Attest.Testing.Core.IInitializationParameters`1" /> for given bootstrapper and ioc container adapter.
+            </summary>
+            <typeparam name="TBootstrapper">The type of the bootstrapper.</typeparam>
+            <seealso cref="T:Attest.Testing.Core.IInitializationParametersManager`1" />
+        </member>
+        <member name="M:Attest.Testing.Core.ContainerAdapterInitializationParametersManager`1.#ctor(Attest.Testing.Core.InitializationParametersResolutionStyle)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Attest.Testing.Core.ContainerInitializationParametersManager`2"/> class.
+            </summary>
+            <param name="initializationParametersResolutionStyle">The initialization parameters resolution style.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.ContainerAdapterInitializationParametersManager`1.GetInitializationParameters">
+            <summary>
+            Gets the initialization parameters.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Attest.Testing.Core.ContainerInitializationParametersManagerStore`2">
+            <summary>
+            Allows returning <see cref="T:Attest.Testing.Core.IInitializationParametersManager`1"/> according to the resolution style.
+            </summary>
+            <typeparam name="TBootstrapper">The type of the bootstrapper.</typeparam>
+            <typeparam name="TContainer">The type of the ioc container.</typeparam>
+        </member>
+        <member name="M:Attest.Testing.Core.ContainerInitializationParametersManagerStore`2.GetInitializationParametersManager(Attest.Testing.Core.InitializationParametersResolutionStyle)">
+            <summary>
+            Gets the initialization parameters manager.
+            </summary>
+            <param name="resolutionStyle">The resolution style.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Attest.Testing.Core.ContainerAdapterInitializationParametersManagerStore`1">
+            <summary>
+            Allows returning <see cref="T:Attest.Testing.Core.IInitializationParametersManager`1"/> according to the resolution style.
+            </summary>
+            <typeparam name="TBootstrapper">The type of the bootstrapper.</typeparam>
+        </member>
+        <member name="M:Attest.Testing.Core.ContainerAdapterInitializationParametersManagerStore`1.GetInitializationParametersManager(Attest.Testing.Core.InitializationParametersResolutionStyle)">
+            <summary>
+            Gets the initialization parameters manager.
+            </summary>
+            <param name="resolutionStyle">The resolution style.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Attest.Testing.Core.InitializationParametersResolutionStyle">
+            <summary>
+            Contains values for initialization parameters resolution style
+            </summary>
+        </member>
+        <member name="F:Attest.Testing.Core.InitializationParametersResolutionStyle.PerRequest">
+            <summary>
+            New copy of initialization parameters is created for each request
+            </summary>
+        </member>
+        <member name="F:Attest.Testing.Core.InitializationParametersResolutionStyle.PerFixture">
+            <summary>
+            New copy of initialization parameters is created for each test suite
+            </summary>
+        </member>
+        <member name="F:Attest.Testing.Core.InitializationParametersResolutionStyle.Singleton">
+            <summary>
+            Initialization parameters are created once
+            </summary>
+        </member>
+        <member name="T:Attest.Testing.Core.IntegrationTestsBase`1">
+            <summary>
+            Base class for all integration-tests fixtures that use ioc container adapter.
+            </summary>
+            <typeparam name="TRootObject">The type of root object, from which the test's flow starts.</typeparam>    
+        </member>
+        <member name="M:Attest.Testing.Core.IntegrationTestsBase`1.CreateRootObject">
+            <summary>
+            This method creates the root object by resolving it from the IoC container
+            </summary>
+            <returns>Root object</returns>
+        </member>
+        <member name="M:Attest.Testing.Core.IntegrationTestsBase`1.CreateRootObjectOverride(`0)">
+            <summary>
+            Override to modify the root object immediately after it has been created.
+            </summary>
+            <param name="rootObject">Newly created root object</param>
+            <returns>Modified root object</returns>
+        </member>
+        <member name="T:Attest.Testing.Core.IocContainerProxy">
+            <summary>
+            Static proxy for an instance of <see cref="T:Solid.Practices.IoC.IIocContainer"/>. 
+            Used as a surrogate for the real implementation without exposing
+            the real implementation type.
+            </summary>   
+        </member>
+        <member name="M:Attest.Testing.Core.IocContainerProxy.#ctor(Solid.Practices.IoC.IIocContainerRegistrator,Solid.Practices.IoC.IIocContainerResolver)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Attest.Testing.Core.IocContainerProxy"/> class.
+            </summary>
+            <param name="registrator">The registrator.</param>
+            <param name="resolver">The resolver.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.IocContainerProxy.RegisterTransient``2">
+            <summary>
+            Registers dependency in a transient lifetime style.
+            </summary>
+            <typeparam name="TService">Type of dependency declaration.</typeparam><typeparam name="TImplementation">Type of dependency implementation.</typeparam>
+        </member>
+        <member name="M:Attest.Testing.Core.IocContainerProxy.RegisterTransient``1">
+            <summary>
+            Registers dependency in a transient lifetime style.
+            </summary>
+            <typeparam name="TService">Type of dependency.</typeparam>
+        </member>
+        <member name="M:Attest.Testing.Core.IocContainerProxy.RegisterTransient(System.Type,System.Type)">
+            <summary>
+            Registers dependency in a transient lifetime style.
+            </summary>
+            <param name="serviceType">Type of dependency declaration.</param><param name="implementationType">Type of dependency implementation.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.IocContainerProxy.RegisterSingleton``2">
+            <summary>
+            Registers dependency as a singleton.
+            </summary>
+            <typeparam name="TService">Type of dependency declaration.</typeparam><typeparam name="TImplementation">Type of dependency implementation.</typeparam>
+        </member>
+        <member name="M:Attest.Testing.Core.IocContainerProxy.RegisterSingleton(System.Type,System.Type)">
+            <summary>
+            Registers dependency as a singleton.
+            </summary>
+            <param name="serviceType">Type of dependency declaration.</param><param name="implementationType">Type of dependency implementation.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.IocContainerProxy.RegisterInstance``1(``0)">
+            <summary>
+            Registers an instance of dependency.
+            </summary>
+            <typeparam name="TService">Type of dependency.</typeparam><param name="instance">Instance of dependency.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.IocContainerProxy.RegisterInstance(System.Type,System.Object)">
+            <summary>
+            Registers an instance of dependency.
+            </summary>
+            <param name="dependencyType">Type of dependency.</param><param name="instance">Instance of dependency.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.IocContainerProxy.RegisterHandler(System.Type,System.Func{System.Object})">
+            <summary>
+            Registers the dependency via the handler.
+            </summary>
+            <param name="dependencyType">Type of the dependency.</param><param name="handler">The handler.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.IocContainerProxy.RegisterHandler``1(System.Func{``0})">
+            <summary>
+            Registers the dependency via the handler.
+            </summary>
+            <param name="handler">The handler.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.IocContainerProxy.RegisterCollection``1(System.Collections.Generic.IEnumerable{System.Type})">
+            <summary>
+            Registers the collection of the dependencies.
+            </summary>
+            <typeparam name="TService">The type of the service.</typeparam><param name="dependencyTypes">The dependency types.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.IocContainerProxy.RegisterCollection``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Registers the collection of the dependencies.
+            </summary>
+            <typeparam name="TService">The type of the service.</typeparam><param name="dependencies">The dependencies.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.IocContainerProxy.RegisterCollection(System.Type,System.Collections.Generic.IEnumerable{System.Type})">
+            <summary>
+            Registers the collection of the dependencies.
+            </summary>
+            <param name="dependencyType">The dependency type.</param><param name="dependencyTypes">The dependency types.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.IocContainerProxy.RegisterCollection(System.Type,System.Collections.Generic.IEnumerable{System.Object})">
+            <summary>
+            Registers the collection of the dependencies.
+            </summary>
+            <param name="dependencyType">The dependency type.</param><param name="dependencies">The dependencies.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.IocContainerProxy.Resolve``1">
+            <summary>
+            Resolves an instance of service.
+            </summary>
+            <typeparam name="TService">The type of the service.</typeparam>
+            <returns/>
+        </member>
+        <member name="M:Attest.Testing.Core.IocContainerProxy.Resolve(System.Type)">
+            <summary>
+            Resolves an instance of service according to the service type.
+            </summary>
+            <param name="serviceType">The type of the service.</param>
+            <returns/>
+        </member>
+        <member name="M:Attest.Testing.Core.IocContainerProxy.Dispose">
+            <summary>
+            Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="T:Attest.Testing.Core.IRootObjectFactory">
+            <summary>
+            Represents a root object factory which is used to create root object instances.
+            </summary>
+        </member>
+        <member name="M:Attest.Testing.Core.IRootObjectFactory.CreateRootObject">
+            <summary>
+            Creates root object.
+            </summary>
+            <returns>Root object.</returns>
+        </member>
+        <member name="T:Attest.Testing.Core.IScenario">
+            <summary>
+            Represents scenario's internal storage which is used to store values 
+            per scenario's context.
+            </summary>
+        </member>
+        <member name="M:Attest.Testing.Core.IScenario.Add(System.String,System.Object)">
+            <summary>
+            Adds the object to the internal storage.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.IScenario.ContainsKey(System.String)">
+            <summary>
+            Determines whether the internal storage contains the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Attest.Testing.Core.IScenario.Clear">
+            <summary>
+            Clears the internal storage.
+            </summary>
+        </member>
+        <member name="P:Attest.Testing.Core.IScenario.Item(System.String)">
+            <summary>
+            Gets or sets the <see cref="T:System.Object"/> with the specified key.
+            </summary>
+            <value>
+            The <see cref="T:System.Object"/>.
+            </value>
+            <param name="key">The key.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Attest.Testing.Core.IStepsProvider">
+            <summary>
+            This is a marker interface that 
+            represents a steps provider.
+            </summary>
+        </member>
+        <member name="T:Attest.Testing.Core.ScenarioContext">
+            <summary>
+            Ambient Context for <see cref="T:Attest.Testing.Core.IScenario"/>.
+            </summary>
+        </member>
+        <member name="P:Attest.Testing.Core.ScenarioContext.Current">
+            <summary>
+            Gets or sets the current scenario.
+            </summary>
+            <value>
+            The current.
+            </value>
+        </member>
+        <member name="T:Attest.Testing.Core.ScenarioHelper">
+            <summary>
+            Wrapper class over the scenario context which provides concise API of adding and retrieving services
+            as well as scenario initialization logic with respect to the root object and ioc container adapter.
+            </summary>
+        </member>
+        <member name="M:Attest.Testing.Core.ScenarioHelper.Initialize(Solid.Practices.IoC.IIocContainer,Attest.Testing.Core.IRootObjectFactory)">
+            <summary>
+            Initializes the <see cref="T:Attest.Testing.Core.ScenarioContext"/>. with the provided container and root object factory.
+            </summary>
+            <param name="iocContainer">The ioc container.</param>
+            <param name="rootObjectFactory">The root object factory.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.ScenarioHelper.CreateRootObject">
+            <summary>
+            Creates the root object and adds it to the scenario context.
+            </summary>
+        </member>
+        <member name="M:Attest.Testing.Core.ScenarioHelper.Add``1(``0)">
+            <summary>
+            Adds an item to the scenario context.
+            </summary>
+            <typeparam name="TItem">Type of item.</typeparam>
+            <param name="item">Item.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.ScenarioHelper.Add``1(``0,System.Type)">
+            <summary>
+            Adds an item to the scenario context as the specific type.
+            </summary>
+            <typeparam name="TItem">Type of item.</typeparam>
+            <param name="item">Item.</param>
+            <param name="addAsType">Specific type which will be used to retrieve the item.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.ScenarioHelper.Get``1">
+            <summary>
+            Gets the item from the scenario context by type if found, otherwise null.
+            </summary>
+            <typeparam name="TItem">Type of item.</typeparam>
+            <returns>Retrieved item.</returns>
+        </member>
+        <member name="M:Attest.Testing.Core.ScenarioHelper.Contains``1">
+            <summary>
+            Determines whether the item is stored inside the scenario context by type.
+            </summary>
+            <typeparam name="TItem">Type of item.</typeparam>
+            <returns>True, if the item is found, otherwise false.</returns>
+        </member>
+        <member name="M:Attest.Testing.Core.ScenarioHelper.GetOrCreate``1">
+            <summary>
+            Gets the stored item from the scenario context by type if found, otherwise creates
+            a new instance by simple instantiation, stores it in the scenario context and returns it eventually.
+            </summary>
+            <typeparam name="TItem">Type of item.</typeparam>
+            <returns>Item.</returns>
+        </member>
+        <member name="M:Attest.Testing.Core.ScenarioHelper.GetOrCreate``1(System.Func{``0})">
+            <summary>
+            Gets the stored item from the scenario context by type if found, otherwise creates
+            a new instance by invoking the provided creator function, stores it in the scenario context and returns it eventually.
+            </summary>
+            <typeparam name="TItem">Type of item.</typeparam>
+            <param name="creatorFunc">Item creation function.</param>
+            <returns>Item</returns>
+        </member>
+        <member name="M:Attest.Testing.Core.ScenarioHelper.Clear">
+            <summary>
+            Clears the <see cref="T:Attest.Testing.Core.ScenarioContext"/>.
+            </summary>
+        </member>
+        <member name="P:Attest.Testing.Core.ScenarioHelper.Registrator">
+            <summary>
+            Gets the ioc container registrator.
+            </summary>
+            <value>
+            The ioc container adapter.
+            </value>
+        </member>
+        <member name="P:Attest.Testing.Core.ScenarioHelper.RootObject">
+            <summary>
+            Root object instance.
+            </summary>
+        </member>
+        <member name="T:Attest.Testing.Core.TestsBase">
+            <summary>
+            Base class for all tests.
+            </summary>
+        </member>
+        <member name="T:Attest.Testing.Core.TestsBase.WithContainer">
+            <summary>
+            Base class for tests with ioc container adapter.
+            </summary>        
+        </member>
+        <member name="F:Attest.Testing.Core.TestsBase.WithContainer.Registrator">
+            <summary>
+            The ioc container registrator.
+            </summary>
+        </member>
+        <member name="F:Attest.Testing.Core.TestsBase.WithContainer.Resolver">
+            <summary>
+            The ioc container resolver.
+            </summary>
+        </member>
+        <member name="M:Attest.Testing.Core.TestsBase.WithContainer.RegisterInstance``1(``0)">
+            <summary>
+            Registers service instance into the ioc container adapter.
+            </summary>
+            <typeparam name="TService">Type of service.</typeparam>
+            <param name="instance">Instance to be registered.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.TestsBase.WithContainer.RegisterBuilder``1(Attest.Fake.Builders.FakeBuilderBase{``0})">
+            <summary>
+            Builds service from its builder and registers it into the ioc container adapter.
+            </summary>
+            <typeparam name="TService">Type of service.</typeparam>
+            <param name="builder">Builder to be registered.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.TestsBase.WithContainer.RegisterFake``1(Attest.Fake.Core.IFake{``0})">
+            <summary>
+            Registers service fake into the ioc container adapter.
+            </summary>
+            <typeparam name="TService">Type of service.</typeparam>
+            <param name="fake">Fake to be registered.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.TestsBase.WithContainer.RegisterMock``1(Attest.Fake.Core.IMock{``0})">
+            <summary>
+            Registers service mock into the ioc container adapter.
+            </summary>
+            <typeparam name="TService">Type of service.</typeparam>
+            <param name="fake">Mock to be registered.</param>
+        </member>
+        <member name="M:Attest.Testing.Core.TestsBase.WithContainer.Resolve``1">
+            <summary>
+            Resolves service from the ioc container adapter.
+            </summary>
+            <typeparam name="TService">Type of service.</typeparam>
+            <returns>Resolved service.</returns>
+        </member>
+        <member name="M:Attest.Testing.Core.TestsBase.Setup">
+            <summary>
+            Override this method to implement custom test setup logic.
+            </summary>
+        </member>
+        <member name="M:Attest.Testing.Core.TestsBase.TearDown">
+            <summary>
+            Override this method to implement custom test teardown logic.
+            </summary>
+        </member>
+    </members>
+</doc>

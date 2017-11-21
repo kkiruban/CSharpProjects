@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Attest.Fake.Builders</name>
+    </assembly>
+    <members>
+        <member name="T:Attest.Fake.Builders.FakeBuilderBase`1">
+            <summary>
+            Base class for service builders, supporting mock and fake capabilties
+            </summary>
+            <typeparam name="TService"></typeparam>    
+        </member>
+        <member name="M:Attest.Fake.Builders.FakeBuilderBase`1.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Attest.Fake.Builders.FakeBuilderBase`1"/> class.
+            </summary>
+        </member>
+        <member name="M:Attest.Fake.Builders.FakeBuilderBase`1.#ctor(Attest.Fake.Core.IFake{`0})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Attest.Fake.Builders.FakeBuilderBase`1"/> class
+            using the specified fake instance.
+            </summary>
+            <param name="fakeService">The instance of the fake service.</param>
+        </member>
+        <member name="P:Attest.Fake.Builders.FakeBuilderBase`1.FakeService">
+            <summary>
+            Fake service.
+            </summary>                    
+        </member>
+        <member name="M:Attest.Fake.Builders.FakeBuilderBase`1.SetupFake">
+            <summary>
+            Override this method to substitute method calls in the faked service.
+            </summary>
+        </member>
+        <member name="M:Attest.Fake.Builders.FakeBuilderBase`1.GetService">
+            <summary>
+            Sets up the fake and gets the faked service.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Attest.Fake.Builders.FakeBuilderBase`1.VerifyCall(System.Linq.Expressions.Expression{System.Action{`0}})">
+            <summary>
+            Verifies that the method on the fake was called.
+            </summary>
+            <param name="expression">Method definition.</param>
+        </member>
+        <member name="M:Attest.Fake.Builders.FakeBuilderBase`1.VerifyNoCall(System.Linq.Expressions.Expression{System.Action{`0}})">
+            <summary>
+            Verifies that the method on the fake was not called.
+            </summary>
+            <param name="expression">Method definition.</param>
+        </member>
+        <member name="M:Attest.Fake.Builders.FakeBuilderBase`1.VerifySingleCall(System.Linq.Expressions.Expression{System.Action{`0}})">
+            <summary>
+            Verifies that the method on the fake was called exacty once.
+            </summary>
+            <param name="expression">Method definition.</param>
+        </member>
+        <member name="P:Attest.Fake.Builders.FakeBuilderBase`1.Object">
+            <summary>
+            Faked service.
+            </summary>
+        </member>
+        <member name="T:Attest.Fake.Builders.FakeProviderBase`2">
+            <summary>
+            Base class for data/model providers
+            </summary>
+            <typeparam name="TBuilder">Type of builder</typeparam>
+            <typeparam name="TService">Type of service</typeparam>
+        </member>
+        <member name="M:Attest.Fake.Builders.FakeProviderBase`2.GetService(System.Func{`0},System.Func{`0,`0})">
+            <summary>
+            Gets an instance of the faked service, after the builder setup is applied
+            </summary>
+            <param name="createBuilder">Builder instantiation function</param>
+            <param name="setupBuilder">Builder setup function</param>
+            <returns>Instance of service after the setup is applied</returns>
+        </member>
+    </members>
+</doc>

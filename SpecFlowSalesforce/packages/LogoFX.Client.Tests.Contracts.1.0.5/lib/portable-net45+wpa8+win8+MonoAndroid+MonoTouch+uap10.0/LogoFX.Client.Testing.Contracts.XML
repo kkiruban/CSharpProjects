@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LogoFX.Client.Testing.Contracts</name>
+    </assembly>
+    <members>
+        <member name="T:LogoFX.Client.Testing.Contracts.IBuilderRegistrationService">
+            <summary>
+            The Builders should be registered via this API
+            </summary>
+        </member>
+        <member name="M:LogoFX.Client.Testing.Contracts.IBuilderRegistrationService.RegisterBuilder``1(Attest.Fake.Builders.FakeBuilderBase{``0})">
+            <summary>
+            Registers the builder into IoC container.
+            </summary>
+            <typeparam name="TService">The type of the service.</typeparam>
+            <param name="builder">The builder.</param>
+        </member>
+        <member name="T:LogoFX.Client.Testing.Contracts.IStartApplicationService">
+            <summary>
+            Represents means of starting up the application.
+            </summary>
+        </member>
+        <member name="M:LogoFX.Client.Testing.Contracts.IStartApplicationService.StartApplication(System.String)">
+            <summary>
+            Starts the application.
+            </summary>
+            <param name="startupPath">The startup path. In the integration tests case, it may be left empty.</param>
+        </member>
+    </members>
+</doc>
