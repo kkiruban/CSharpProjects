@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="FrameworkWebdriver.Customertest">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- FrameworkWebdriver.Customertest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test name="Test1(failed)" parallel="tests">
+    <classes>
+      <class name="FrameworkWebdriver.Projecttest">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- FrameworkWebdriver.Projecttest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

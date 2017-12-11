@@ -1,0 +1,9 @@
+package BasicWebdriverCommands;
+
+import org.testng.annotations.Test;
+
+public class TakingScreenShot {
+  @Test
+  public void f() {
+  }
+}

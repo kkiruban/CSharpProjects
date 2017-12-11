@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="0" errors="0" skipped="6" tests="6" time="0.101141" name="Quote">
+<testcase classname="Quote" name="Submitting the quote" time="0.027703">
+  <skipped/>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="Quote" name="Verifing cancel in InApproval status" time="0.016120">
+  <skipped/>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="Quote" name="Verifing revise in InApproval status" time="0.014158">
+  <skipped/>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="Quote" name="Verifing revise in InApproval status" time="0.011952">
+  <skipped/>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="Quote" name="Verifing approve in InApproval status" time="0.015100">
+  <skipped/>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="Quote" name="Verifing reject in InApproval status" time="0.016107">
+  <skipped/>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+</testsuite>

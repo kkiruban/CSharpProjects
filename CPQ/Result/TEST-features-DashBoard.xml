@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="0" errors="0" skipped="4" tests="4" time="0.056310" name="Dashboard">
+<testcase classname="Dashboard" name="verify dashboard performace chart and pipeline chart" time="0.019900">
+  <skipped/>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="Dashboard" name="verify Opportunities grid" time="0.011494">
+  <skipped/>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="Dashboard" name="My Contracts grid" time="0.016804">
+  <skipped/>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="Dashboard" name="Dashboard_TC_040 Account and Logout" time="0.008112">
+  <skipped/>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+</testsuite>

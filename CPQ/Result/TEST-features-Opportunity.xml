@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="0" errors="0" skipped="4" tests="4" time="0.049834" name="opportunity">
+<testcase classname="opportunity" name="Verifying Opportunities grid" time="0.013438">
+  <skipped/>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="opportunity" name="Verifying Opportunities grid sorted by dropdown list" time="0.010884">
+  <skipped/>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="opportunity" name="Verifying Opportunities grid search option" time="0.012655">
+  <skipped/>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="opportunity" name="Check for grid pagination" time="0.012857">
+  <skipped/>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+</testsuite>

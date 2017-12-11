@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+
+<project basedir="." default="runTestNG" name="Energycrm">
+
+	<property name="src.path" value="src" />
+	<property name="class.path" value="bin" />
+		
+		
+	<path id="libs">
+		<fileset dir="C:\Users\kiruba\Desktop\AllSeleniumJars">
+			<include name="*.jar" />
+		</fileset>
+		<fileset dir="C:\Users\kiruba\Desktop\testNG">
+			<include name="*.jar" />
+		</fileset>
+		<pathelement path="${class.path}" />
+	</path>
+		
+	<target name="compile">
+		<javac debug="true" srcdir="${src.path}" destdir="${class.path}" classpathref="libs">
+		</javac>
+	</target>
+		
+		
+	<target name="runTestNG" depends="compile">
+		<mkdir dir="${testng.output}" />
+		<taskdef resource="testngtasks" classpathref="libs"></taskdef>
+		<testng outputdir="${testng.output}" classpathref="libs">
+			<xmlfileset dir="." includes="testng.xml" />
+		</testng>
+
+	</target>
+</project>

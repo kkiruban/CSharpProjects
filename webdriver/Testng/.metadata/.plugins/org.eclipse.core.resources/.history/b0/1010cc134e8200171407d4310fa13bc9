@@ -1,0 +1,9 @@
+package BasicWebdriverCommands;
+
+import org.testng.annotations.Test;
+
+public class HandleSSLCertification {
+  @Test
+  public void f() {
+  }
+}

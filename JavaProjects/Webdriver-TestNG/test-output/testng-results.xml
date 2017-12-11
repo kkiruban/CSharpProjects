@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32" started-at="2017-07-18T06:47:36Z" finished-at="2017-07-18T06:47:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32" started-at="2017-07-18T06:47:36Z" finished-at="2017-07-18T06:47:36Z">
+      <class name="com.testing.tesng.Sampletestng">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.testing.tesng.Sampletestng@2e3967ea]" name="beforeSuite" is-config="true" duration-ms="4192" started-at="2017-07-18T12:17:32Z" finished-at="2017-07-18T12:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.testing.tesng.Sampletestng@2e3967ea]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-07-18T12:17:36Z" finished-at="2017-07-18T12:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testing.tesng.Sampletestng@2e3967ea]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-07-18T12:17:36Z" finished-at="2017-07-18T12:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.tesng.Sampletestng@2e3967ea]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-07-18T12:17:36Z" finished-at="2017-07-18T12:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.testing.tesng.Sampletestng@2e3967ea]" name="setData" duration-ms="5" started-at="2017-07-18T12:17:36Z" data-provider="getData" finished-at="2017-07-18T12:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsintegration-admin@servicesource.com.sitf5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[srevds123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testing.tesng.Sampletestng@2e3967ea]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-07-18T12:17:36Z" finished-at="2017-07-18T12:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.testing.tesng.Sampletestng@2e3967ea]" name="setData" duration-ms="0" started-at="2017-07-18T12:17:36Z" data-provider="getData" finished-at="2017-07-18T12:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1pf5.opsmgr@servicesource.com.sitf5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testf5123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.tesng.Sampletestng@2e3967ea]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-18T12:17:36Z" finished-at="2017-07-18T12:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.tesng.Sampletestng@2e3967ea]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-18T12:17:36Z" finished-at="2017-07-18T12:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.testing.tesng.Sampletestng@2e3967ea]" name="setData" duration-ms="1" started-at="2017-07-18T12:17:36Z" data-provider="getData" finished-at="2017-07-18T12:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1pf5.opsrep@servicesource.com.sitf5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testf5123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testing.tesng.Sampletestng@2e3967ea]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-07-18T12:17:36Z" finished-at="2017-07-18T12:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testing.tesng.Sampletestng@2e3967ea]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-07-18T12:17:36Z" finished-at="2017-07-18T12:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testing.tesng.Sampletestng@2e3967ea]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-07-18T12:17:36Z" finished-at="2017-07-18T12:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testing.tesng.Sampletestng@2e3967ea]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-07-18T12:17:36Z" finished-at="2017-07-18T12:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.testing.tesng.Sampletestng@2e3967ea]" name="afterSuite" is-config="true" duration-ms="2021" started-at="2017-07-18T12:17:36Z" finished-at="2017-07-18T12:17:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.testing.tesng.Sampletestng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

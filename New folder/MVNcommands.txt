@@ -1,0 +1,3 @@
+to create a maven project
+command----mvn archetype:generate -DgroupId=Selenium -DartifactId=SeleniumTestNGFramework -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+command ----mvn eclipse:eclipse

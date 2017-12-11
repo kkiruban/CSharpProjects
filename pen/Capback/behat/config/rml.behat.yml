@@ -1,0 +1,112 @@
+# rml.behat.yml
+# Royalmail.com BDD
+default:
+  context:
+    class: RMLFeatureContext
+    parameters:
+      drupal_users:
+        admin user:
+          email: 'admin@capgemini.com'
+          password: 'admin'
+        rml user:
+          email: 'rmltestuser1@example.com'
+          password: 'test1234'
+        oba user:
+          email: 'rmltestuserOBA2@example.com'
+          password: 'test1234'
+        pfw user:
+          email: 'pfwtestuser@example.com'
+          password: 'test1234'
+        pol user:
+          email: 'poltestuser@example.com'
+          password: 'test1234'
+        rmltre user:
+          email: tretest@example.com
+          password: 'test1234'
+      post title: 'enter a node title here that has a link on the current page'
+      default_browser: 'goutte'
+      bank_holidays: 2014-01-01,2014-01-02,2014-03-17,2014-04-18,2014-04-21,2014-05-05,2014-05-26,2014-07-14,2014-08-04,2014-08-25,2014-12-01,2014-12-25,2014-12-26
+      browser: firefox
+      postoffice_site:  'http://wwwvagrant.postoffice.co.uk'
+      parcelforce_site: 'http://wwwvagrant.parcelforce.com'
+      isolation_mode: enabled
+  paths:
+    features: %behat.paths.base%/../features/rml
+    bootstrap: %behat.paths.base%/../features/bootstrap
+  extensions:
+    Behat\MinkExtension\Extension:
+      files_path: %behat.paths.base%/../features/rml/resources
+      goutte: ~
+      default_session: selenium2
+      browser_name: firefox
+      selenium2:
+        capabilities:
+          browser:      firefox
+          browserName:  firefox
+          version:      ""
+        wd_host:        'http://127.0.0.1:4444/wd/hub'
+      base_url:         'http://wwwvagrant.royalmail.com'
+    Drupal\DrupalExtension\Extension:
+      blackbox: ~
+      basic_auth:
+        username: drupal
+        password: drupal
+      drush:
+        alias: 'rml'
+
+# SIT RML
+rml.sit:
+  context:
+    parameters:
+      postoffice_site:  'https://wwwsit3.postoffice.co.uk'
+      parcelforce_site: 'https://wwwsit3.parcelforce.com'
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url: 'http://wwwsit3.royalmail.com'
+      selenium2:
+        wd_host: 'http://127.0.0.1:4445/wd/hub'
+  filters:
+        tags: '~@dashboardrml9&&@eredelivery,@smoketest'
+
+#RML TST
+rml.tst:
+  context:
+    parameters:
+      postoffice_site:  'https://wwwtst.postoffice.co.uk'
+      parcelforce_site: 'https://wwwtst.parcelforce.com'
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url: 'http://wwwtst.royalmail.com'
+
+#RML QA
+rml.qa:
+  context:
+    parameters:
+      postoffice_site:  'https://wwwqa.postoffice.co.uk'
+      parcelforce_site: 'https://wwwqa.parcelforce.com'
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url: 'http://wwwqa.royalmail.com'
+      selenium2:
+        wd_host: 'http://192.168.1.100:4444/wd/hub'
+
+rml.qt:
+  context:
+    parameters:
+      postoffice_site:  'https://wwwqt.postoffice.co.uk'
+      parcelforce_site: 'https://wwwqt.parcelforce.com'
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url: 'http://wwwqt.royalmail.com'
+
+# To test QA from the Vagrant machine
+qa_from_local:
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url: 'https://wwwqa.royalmail.com'
+      selenium2:
+        capabilities:
+          proxy:
+            proxyType: 'manual'
+            httpProxy: '10.23.12.100:8080'
+        wd_host: 'http://127.0.0.1:4444/wd/hub'

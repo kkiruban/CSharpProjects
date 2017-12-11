@@ -1,0 +1,74 @@
+package BasicWebdriverCommands;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterMethod;
+
+public class basicWebdriverCommands {
+
+	public static WebDriver driver;
+	
+	
+	@BeforeMethod
+	public void beforeMethod() throws InterruptedException {
+		//to launch a firefox browser
+		System. setProperty("webdriver.chrome.driver", "C:\\Ruby22-x64\\bin\\chromedriver.exe");
+		 driver = new ChromeDriver();
+		 
+		 //naviagte to salesforce url  
+		 driver.get("https://test.salesforce.com/");
+		 
+		 //implicit wait method
+		 driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+		 
+		 // selenium command to maximize the browser
+		 driver.manage().window().maximize();
+ 
+		 //to pass username in text box
+		 driver.findElement(By.id("username")).sendKeys("dsintegration-admin@servicesource.com.sitnxtqlik");
+		
+		 //to pass username in text box
+		 driver.findElement(By.id("password")).sendKeys("srevds123!");
+		 
+		 //to perform click action on login button
+		 driver.findElement(By.name("Login")).click();
+
+		//implicit wait
+		 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	}
+
+	@Test
+	public void createaccount() {
+		
+		System.out.println(driver.getCurrentUrl());
+		System.out.println("test");
+		driver.findElement(By.xpath("//a[@title='Accounts Tab']")).click();
+		//get title
+		 System.out.println(driver.getTitle());	
+		 
+		 //explict wait
+		 WebDriverWait wait=new WebDriverWait(driver,20);
+		 wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("new")));		 
+		 
+		 driver.findElement(By.name("new")).click();
+		 
+		 driver.findElement(By.id("acc2")).sendKeys("smoke-test-account-1123");
+		 driver.findElement(By.id("acc5")).sendKeys("smoke-test-account-1123");
+	}
+
+	@AfterMethod
+	public void afterMethod() {
+		System.out.println("test");
+		driver.quit();
+	}
+
+}

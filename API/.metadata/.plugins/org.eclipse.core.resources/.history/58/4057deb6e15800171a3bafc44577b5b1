@@ -1,0 +1,8 @@
+package APItesting.com.org.api;
+
+public class WheatherGetRequest {
+	
+	@Test
+	
+
+}

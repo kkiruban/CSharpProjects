@@ -1,0 +1,3765 @@
+[
+  {
+    "uri": "features/Contract.feature",
+    "id": "contract",
+    "keyword": "Feature",
+    "name": "contract",
+    "description": "  In order to test cpq application\n  As a tester\n  And I should test cpq response application as per client requirement",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@cpq-contract",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "contract;verifying-contracts-grid",
+        "keyword": "Scenario",
+        "name": "Verifying Contracts grid",
+        "description": "",
+        "line": 9,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@cpq-contract",
+            "line": 1
+          },
+          {
+            "name": "@Contracts_TC_001",
+            "line": 8
+          },
+          {
+            "name": "@Contracts_TC_002",
+            "line": 8
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 10,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 47120
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 11,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see contract page icon image in dashboard page",
+            "line": 12,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on contract icon button in dashboard page",
+            "line": 13,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see list of existing contract under contract grid section",
+            "line": 14,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "contract;verifying-contracts-grid-sorted-by-dropdown-list",
+        "keyword": "Scenario",
+        "name": "Verifying Contracts grid sorted by dropdown list",
+        "description": "",
+        "line": 17,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@cpq-contract",
+            "line": 1
+          },
+          {
+            "name": "@Contracts_TC_003",
+            "line": 16
+          },
+          {
+            "name": "@Contracts_TC_004",
+            "line": 16
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 18,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 27526
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 19,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see contract page icon image in dashboard page",
+            "line": 20,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on contract icon button in dashboard page",
+            "line": 21,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see sort by name downdrop in contract page",
+            "line": 22,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "contract;verifying-contracts-grid-search-option",
+        "keyword": "Scenario",
+        "name": "Verifying Contracts grid search option",
+        "description": "",
+        "line": 25,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@cpq-contract",
+            "line": 1
+          },
+          {
+            "name": "@Contracts_TC_005",
+            "line": 24
+          },
+          {
+            "name": "@Contracts_TC_006",
+            "line": 24
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 26,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 27058
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 27,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see contract page icon image in dashboard page",
+            "line": 28,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on contract icon button in dashboard page",
+            "line": 29,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see contract grid search option in contract page",
+            "line": 30,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I search \"CNR-01007-K9W1Q8\" contract in a search box",
+            "line": 31,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on \"CNR-01007-K9W1Q8\" contract",
+            "line": 32,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "contract;check-for-grid-pagination",
+        "keyword": "Scenario",
+        "name": "Check for grid pagination",
+        "description": "",
+        "line": 35,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@cpq-contract",
+            "line": 1
+          },
+          {
+            "name": "@Contracts_TC_007",
+            "line": 34
+          },
+          {
+            "name": "@Contracts_TC_008",
+            "line": 34
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 36,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 22394
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 37,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see contract page icon image in dashboard page",
+            "line": 38,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on contract icon button in dashboard page",
+            "line": 39,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see grid pagination in contract page",
+            "line": 40,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/DashBoard.feature",
+    "id": "dashboard",
+    "keyword": "Feature",
+    "name": "Dashboard",
+    "description": "  In order to test cpq product\n  As a tester\n  I should able to verify all fields as per client requirement",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@cpq-dashboard",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "dashboard;verify-dashboard-performace-chart-and-pipeline-chart",
+        "keyword": "Scenario",
+        "name": "verify dashboard performace chart and pipeline chart",
+        "description": "",
+        "line": 8,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@cpq-dashboard",
+            "line": 1
+          },
+          {
+            "name": "@DashBoard",
+            "line": 7
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 9,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 25192
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 10,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see Performance Chart",
+            "line": 11,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see Current Month inside performace chart",
+            "line": 12,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see Last Month inside performace chart",
+            "line": 13,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see Current Year inside performace chart",
+            "line": 14,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see Pipeline Chart",
+            "line": 15,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see total Opportunities count in Pipeline Chart",
+            "line": 16,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see total unquoted count in Pipeline Chart",
+            "line": 17,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see total quoted count in Pipeline Chart",
+            "line": 18,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see \"Recent Opportunities\" section header",
+            "line": 19,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see \"Recent Quotes\" section header",
+            "line": 20,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see \"Adventure Works (sample)\" section header",
+            "line": 21,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see \"Pending Drafts\" section header",
+            "line": 22,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see \"view-all\" link in pending drafts section",
+            "line": 23,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see \"view-all\" link in Recent Quotes section",
+            "line": 24,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see Sorted by option under recent opportunities section",
+            "line": 25,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see search box under recent opportunities section",
+            "line": 26,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see opportunity bulb image in dashboard page",
+            "line": 27,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see contract page icon image in dashboard page",
+            "line": 28,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see Quote image in dashboard page",
+            "line": 29,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see search box under my contracts section",
+            "line": 30,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "dashboard;verify-opportunities-grid",
+        "keyword": "Scenario",
+        "name": "verify Opportunities grid",
+        "description": "",
+        "line": 33,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@cpq-dashboard",
+            "line": 1
+          },
+          {
+            "name": "@DashBoard",
+            "line": 32
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 34,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 29392
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 35,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see \"Opportunities\" section header",
+            "line": 36,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see list of recent opportunities in a grid",
+            "line": 37,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see Sorted by option under recent opportunities section",
+            "line": 38,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see search box under recent opportunities section",
+            "line": 39,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see opportunity bulb image in dashboard page",
+            "line": 40,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "dashboard;my-contracts-grid",
+        "keyword": "Scenario",
+        "name": "My Contracts grid",
+        "description": "",
+        "line": 43,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@cpq-dashboard",
+            "line": 1
+          },
+          {
+            "name": "@DashBoard",
+            "line": 42
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 44,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 28459
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 45,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see \"Contracts\" section header",
+            "line": 46,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see list of recent contracts in a grid",
+            "line": 47,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see Pipeline Chart Contracts in a dashboard page",
+            "line": 48,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see total contracts count in Pipeline Chart Contracts",
+            "line": 49,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see total expired contracts count in Pipeline Chart Contracts",
+            "line": 50,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see Sorted by option under recent Contracts section",
+            "line": 51,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see search box under recent Contracts section",
+            "line": 52,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see contract page icon in dashboard page",
+            "line": 53,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see search box under my contracts section",
+            "line": 54,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "dashboard;dashboard_tc_040-account-and-logout",
+        "keyword": "Scenario",
+        "name": "Dashboard_TC_040 Account and Logout",
+        "description": "",
+        "line": 57,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@cpq-dashboard",
+            "line": 1
+          },
+          {
+            "name": "@Dashboard_TC_040",
+            "line": 56
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 58,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 42920
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 59,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click account button in a dashboard page",
+            "line": 60,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on logout link in a dashboard page",
+            "line": 61,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see login form title",
+            "line": 62,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/Opportunity.feature",
+    "id": "opportunity",
+    "keyword": "Feature",
+    "name": "opportunity",
+    "description": "  In order to test cpq application\n  As a tester\n  And I should test cpq response application as per client requirement",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@cpq-opportunity",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "opportunity;verifying-opportunities-grid",
+        "keyword": "Scenario",
+        "name": "Verifying Opportunities grid",
+        "description": "",
+        "line": 9,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@cpq-opportunity",
+            "line": 1
+          },
+          {
+            "name": "@Opp_TC_001",
+            "line": 8
+          },
+          {
+            "name": "@Opp_TC_002",
+            "line": 8
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 10,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 28459
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 11,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see opportunity bulb image in dashboard page",
+            "line": 12,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on opportunity icon",
+            "line": 13,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see list of existing opportunity under opportunities section",
+            "line": 14,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I search \"Opp_Test_Renew\" opportunity in a search box",
+            "line": 15,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on \"Opp_Test_Renew\" opportunity",
+            "line": 16,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should check system will allow to modify or edit opportunity",
+            "line": 17,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "opportunity;verifying-opportunities-grid-sorted-by-dropdown-list",
+        "keyword": "Scenario",
+        "name": "Verifying Opportunities grid sorted by dropdown list",
+        "description": "",
+        "line": 20,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@cpq-opportunity",
+            "line": 1
+          },
+          {
+            "name": "@Opp_TC_003",
+            "line": 19
+          },
+          {
+            "name": "@Opp_TC_004",
+            "line": 19
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 21,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 26592
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 22,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see opportunity bulb image in dashboard page",
+            "line": 23,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on opportunity icon",
+            "line": 24,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see list of existing opportunity under opportunities section",
+            "line": 25,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see sort by name downdrop in opportunities page",
+            "line": 26,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see sorted by dropdown should display all the coloumn names of the grid",
+            "line": 27,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "opportunity;verifying-opportunities-grid-search-option",
+        "keyword": "Scenario",
+        "name": "Verifying Opportunities grid search option",
+        "description": "",
+        "line": 31,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@cpq-opportunity",
+            "line": 1
+          },
+          {
+            "name": "@Opp_TC_005",
+            "line": 30
+          },
+          {
+            "name": "@Opp_TC_006",
+            "line": 30
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 32,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 29392
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 33,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see opportunity bulb image in dashboard page",
+            "line": 34,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on opportunity icon",
+            "line": 35,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see list of existing opportunity under opportunities section",
+            "line": 36,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see sort by name downdrop in opportunities page",
+            "line": 37,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see opportunity grid search option in opportunities page",
+            "line": 38,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I search \"Opp_Test_Renew\" opportunity in a search box",
+            "line": 39,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on \"Opp_Test_Renew\" opportunity",
+            "line": 40,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "opportunity;check-for-grid-pagination",
+        "keyword": "Scenario",
+        "name": "Check for grid pagination",
+        "description": "",
+        "line": 43,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@cpq-opportunity",
+            "line": 1
+          },
+          {
+            "name": "@Opp_TC_007",
+            "line": 42
+          },
+          {
+            "name": "@Opp_TC_008",
+            "line": 42
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 44,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 25659
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 45,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see opportunity bulb image in dashboard page",
+            "line": 46,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on opportunity icon",
+            "line": 47,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see list of existing opportunity under opportunities section",
+            "line": 48,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see grid pagination in opportunity page",
+            "line": 49,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/Quote.feature",
+    "id": "quote",
+    "keyword": "Feature",
+    "name": "Quote",
+    "description": "  In order to test cpq application\n  As a tester\n  And I should test cpq response application as per client requirement",
+    "line": 3,
+    "tags": [
+      {
+        "name": "@CPQ-Quote-1",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "quote;creation-of-quote",
+        "keyword": "Scenario",
+        "name": "Creation of quote",
+        "description": "",
+        "line": 9,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@CPQ-Quote-1",
+            "line": 1
+          },
+          {
+            "name": "@Quote_TC_001",
+            "line": 8
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 10,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 24726
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 11,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see Performance Chart",
+            "line": 12,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see Current Month inside performace chart",
+            "line": 13,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see Last Month inside performace chart",
+            "line": 14,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see Current Year inside performace chart",
+            "line": 15,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see Pipeline Chart",
+            "line": 16,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see \"Recent Opportunities\" section header",
+            "line": 17,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see \"Recent Quotes\" section header",
+            "line": 18,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see \"Pending Drafts\" section header",
+            "line": 19,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see \"view-all\" link in pending drafts section",
+            "line": 20,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see \"view-all\" link in Recent Quotes section",
+            "line": 21,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see Sorted by option under recent opportunities section",
+            "line": 22,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see search box under recent opportunities section",
+            "line": 23,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see opportunity bulb image in dashboard page",
+            "line": 24,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see contract page icon image in dashboard page",
+            "line": 25,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see Quote image in dashboard page",
+            "line": 26,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see search box under my contracts section",
+            "line": 27,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on plus icon in dashboard page",
+            "line": 28,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I select any one opportunity and click on next button",
+            "line": 29,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I select quote info details and click on next button",
+            "line": 30,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I select the price list from the displayed list and click on submit",
+            "line": 31,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should get message from the current page",
+            "line": 32,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Quote created successfully.\"",
+            "line": 33,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on ok button",
+            "line": 34,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "quote;saving-draft-quote",
+        "keyword": "Scenario",
+        "name": "Saving draft quote",
+        "description": "",
+        "line": 37,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@CPQ-Quote-1",
+            "line": 1
+          },
+          {
+            "name": "@Quote_TC_002",
+            "line": 36
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 38,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 27059
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 39,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on quote icon in dashboard page",
+            "line": 40,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on any existing quote link under draft quotes section",
+            "line": 41,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Quote Title\"",
+            "line": 42,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I change the address street two and click on save button",
+            "line": 43,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get address street two from the current page",
+            "line": 44,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "quote;verifing-the-quote-rollback",
+        "keyword": "Scenario",
+        "name": "Verifing the quote rollback",
+        "description": "",
+        "line": 47,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@CPQ-Quote-1",
+            "line": 1
+          },
+          {
+            "name": "@cpq-smoketest",
+            "line": 46
+          },
+          {
+            "name": "@Quote_TC_003",
+            "line": 46
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 48,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 31724
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 49,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on quote icon in dashboard page",
+            "line": 50,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on any existing quote link under draft quotes section",
+            "line": 51,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Quote Title\"",
+            "line": 52,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see rollback button in edit quote page",
+            "line": 53,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I change the address street two and click on save button",
+            "line": 54,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on roll back button in edit quote page",
+            "line": 55,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Are you sure you want to rollback all changes?\"",
+            "line": 56,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on YES button to roll back changes",
+            "line": 57,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "quote;verifing-the-quote-rollback",
+        "keyword": "Scenario",
+        "name": "Verifing the quote rollback",
+        "description": "",
+        "line": 60,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@CPQ-Quote-1",
+            "line": 1
+          },
+          {
+            "name": "@cpq-smoketest",
+            "line": 59
+          },
+          {
+            "name": "@Quote_TC_003_1",
+            "line": 59
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 61,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 36389
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 62,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on quote icon in dashboard page",
+            "line": 63,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on any existing quote link under draft quotes section",
+            "line": 64,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Quote Title\"",
+            "line": 65,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see rollback button in edit quote page",
+            "line": 66,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I change the address street two",
+            "line": 67,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on roll back button in edit quote page",
+            "line": 68,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Are you sure you want to rollback all changes?\"",
+            "line": 69,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on NO button to roll back changes",
+            "line": 70,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "quote;copying-the-draft-quote",
+        "keyword": "Scenario",
+        "name": "Copying the draft quote",
+        "description": "",
+        "line": 73,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@CPQ-Quote-1",
+            "line": 1
+          },
+          {
+            "name": "@cpq-smoketest",
+            "line": 72
+          },
+          {
+            "name": "@Quote_TC_004",
+            "line": 72
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 74,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 29858
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 75,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on quote icon in dashboard page",
+            "line": 76,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on any existing quote link under draft quotes section",
+            "line": 77,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Quote Title\"",
+            "line": 78,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see copy button in edit quote page",
+            "line": 79,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click copy button in edit quote page",
+            "line": 80,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see \"There are unsaved changes. Are you sure you want to copy this quote? Unsaved changes will not carry over\"",
+            "line": 81,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on NO button to carry over unsaved changes",
+            "line": 82,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "quote;copying-the-draft-quote",
+        "keyword": "Scenario",
+        "name": "Copying the draft quote",
+        "description": "",
+        "line": 85,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@CPQ-Quote-1",
+            "line": 1
+          },
+          {
+            "name": "@cpq-smoketest",
+            "line": 84
+          },
+          {
+            "name": "@Quote_TC_004",
+            "line": 84
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 86,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 24726
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 87,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on quote icon in dashboard page",
+            "line": 88,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on any existing quote link under draft quotes section",
+            "line": 89,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Quote Title\"",
+            "line": 90,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see copy button in edit quote page",
+            "line": 91,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click copy button in edit quote page",
+            "line": 92,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see \"There are unsaved changes. Are you sure you want to copy this quote? Unsaved changes will not carry over\"",
+            "line": 93,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on YES button to carry over unsaved changes",
+            "line": 94,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "quote;verifing-the-quote-re-compute",
+        "keyword": "Scenario",
+        "name": "Verifing the quote re-compute",
+        "description": "",
+        "line": 97,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@CPQ-Quote-1",
+            "line": 1
+          },
+          {
+            "name": "@cpq-smoketest",
+            "line": 96
+          },
+          {
+            "name": "@Quote_TC_005",
+            "line": 96
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 98,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 27991
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 99,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on quote icon in dashboard page",
+            "line": 100,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on any existing quote link under draft quotes section",
+            "line": 101,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Quote Title\"",
+            "line": 102,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see re-compute icon in edit quote page",
+            "line": 103,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on re-compute icon button in edit quote page",
+            "line": 104,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "quote;verifing-the-quote-exceptions",
+        "keyword": "Scenario",
+        "name": "Verifing the quote exceptions",
+        "description": "",
+        "line": 107,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@CPQ-Quote-1",
+            "line": 1
+          },
+          {
+            "name": "@cpq-smoketest",
+            "line": 106
+          },
+          {
+            "name": "@Quote_TC_006",
+            "line": 106
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 108,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 29392
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 109,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on quote icon in dashboard page",
+            "line": 110,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on any existing quote link under draft quotes section",
+            "line": 111,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Quote Title\"",
+            "line": 112,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see show exceptions icon button in edit quote page",
+            "line": 113,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on show exceptions icon button in edit quote page",
+            "line": 114,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Exceptions\"",
+            "line": 115,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I close window pop up",
+            "line": 116,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "quote;verifing-the-quote-logs",
+        "keyword": "Scenario",
+        "name": "Verifing the quote logs",
+        "description": "",
+        "line": 119,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@CPQ-Quote-1",
+            "line": 1
+          },
+          {
+            "name": "@cpq-smoketest",
+            "line": 118
+          },
+          {
+            "name": "@Quote_TC_007",
+            "line": 118
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 120,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 26125
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 121,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on quote icon in dashboard page",
+            "line": 122,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on any existing quote link under draft quotes section",
+            "line": 123,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Quote Title\"",
+            "line": 124,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see Show logs icon button in edit quote page",
+            "line": 125,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on Show logs icon button in edit quote page",
+            "line": 126,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Show Logs\"",
+            "line": 127,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see \"This panel shows all edits made to the quote and it's line items since the last save\"",
+            "line": 128,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I close window pop up",
+            "line": 129,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "quote;refreshing-the-quote",
+        "keyword": "Scenario",
+        "name": "Refreshing the quote",
+        "description": "",
+        "line": 132,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@CPQ-Quote-1",
+            "line": 1
+          },
+          {
+            "name": "@cpq-smoketest",
+            "line": 131
+          },
+          {
+            "name": "@Quote_TC_008",
+            "line": 131
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 133,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 27525
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 134,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on quote icon in dashboard page",
+            "line": 135,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on any existing quote link under draft quotes section",
+            "line": 136,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Quote Title\"",
+            "line": 137,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see Refresh icon button in edit quote page",
+            "line": 138,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I change the address street two",
+            "line": 139,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on Refresh icon button in edit quote page",
+            "line": 140,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Are you sure you want to refresh? You will lose all changes.\"",
+            "line": 141,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on YES button to carry over unsaved changes",
+            "line": 142,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "quote;refreshing-the-quote",
+        "keyword": "Scenario",
+        "name": "Refreshing the quote",
+        "description": "",
+        "line": 145,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@CPQ-Quote-1",
+            "line": 1
+          },
+          {
+            "name": "@cpq-smoketest",
+            "line": 144
+          },
+          {
+            "name": "@Quote_TC_008",
+            "line": 144
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 146,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 26592
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 147,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on quote icon in dashboard page",
+            "line": 148,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on any existing quote link under draft quotes section",
+            "line": 149,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Quote Title\"",
+            "line": 150,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see Refresh icon button in edit quote page",
+            "line": 151,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I change the address street two",
+            "line": 152,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on Refresh icon button in edit quote page",
+            "line": 153,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Are you sure you want to refresh? You will lose all changes.\"",
+            "line": 154,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on NO button to carry over unsaved changes",
+            "line": 155,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/Quote_1.feature",
+    "id": "quote",
+    "keyword": "Feature",
+    "name": "Quote",
+    "description": "  In order to test cpq application\n  As a tester\n  And I should test cpq response application as per client requirement",
+    "line": 2,
+    "elements": [
+      {
+        "id": "quote;submitting-the-quote",
+        "keyword": "Scenario",
+        "name": "Submitting the quote",
+        "description": "",
+        "line": 8,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Quote_TC_009",
+            "line": 7
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 9,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 31724
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 10,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on quote icon in dashboard page",
+            "line": 11,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on any existing quote link under draft quotes section",
+            "line": 12,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Quote Title\"",
+            "line": 13,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I change the address street two and click on save button",
+            "line": 14,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get address street two from the current page",
+            "line": 15,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on submit button",
+            "line": 16,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the status for the respective draft quote",
+            "line": 17,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see form disabled",
+            "line": 18,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "quote;verifing-cancel-in-inapproval-status",
+        "keyword": "Scenario",
+        "name": "Verifing cancel in InApproval status",
+        "description": "",
+        "line": 21,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Quote_TC_010",
+            "line": 20
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 22,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 18661
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 23,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on quote icon in dashboard page",
+            "line": 24,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on any existing quote link under draft quotes section",
+            "line": 25,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Quote Title\"",
+            "line": 26,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I change the address street two and click on save button",
+            "line": 27,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get address street two from the current page",
+            "line": 28,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on submit button",
+            "line": 29,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the status for the respective draft quote",
+            "line": 30,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on cancel button in edit quote page",
+            "line": 31,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the status for the respective draft quote",
+            "line": 32,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "quote;verifing-revise-in-inapproval-status",
+        "keyword": "Scenario",
+        "name": "Verifing revise in InApproval status",
+        "description": "",
+        "line": 35,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Quote_TC_011",
+            "line": 34
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 36,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 30325
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 37,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on quote icon in dashboard page",
+            "line": 38,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on any existing quote link under draft quotes section",
+            "line": 39,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Quote Title\"",
+            "line": 40,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I change the address street two and click on save button",
+            "line": 41,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get address street two from the current page",
+            "line": 42,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on submit button",
+            "line": 43,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the status for the respective draft quote",
+            "line": 44,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on \"Revise\" button in edit quote page",
+            "line": 45,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "quote;verifing-revise-in-inapproval-status",
+        "keyword": "Scenario",
+        "name": "Verifing revise in InApproval status",
+        "description": "",
+        "line": 49,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Quote_TC_012",
+            "line": 48
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 50,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 34523
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 51,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on quote icon in dashboard page",
+            "line": 52,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on any existing quote link under draft quotes section",
+            "line": 53,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Quote Title\"",
+            "line": 54,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I change the address street two and click on save button",
+            "line": 55,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get address street two from the current page",
+            "line": 56,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on submit button",
+            "line": 57,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the status for the respective draft quote",
+            "line": 58,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click copy button in edit quote page",
+            "line": 59,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "quote;verifing-approve-in-inapproval-status",
+        "keyword": "Scenario",
+        "name": "Verifing approve in InApproval status",
+        "description": "",
+        "line": 63,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Quote_TC_013",
+            "line": 62
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 64,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 19128
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 65,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on quote icon in dashboard page",
+            "line": 66,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on any existing quote link under draft quotes section",
+            "line": 67,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Quote Title\"",
+            "line": 68,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I change the address street two and click on save button",
+            "line": 69,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get address street two from the current page",
+            "line": 70,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on submit button",
+            "line": 71,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the status for the respective draft quote",
+            "line": 72,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on \"Approve\" button in edit quote page",
+            "line": 73,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Show Approve\"",
+            "line": 74,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "quote;verifing-reject-in-inapproval-status",
+        "keyword": "Scenario",
+        "name": "Verifing reject in InApproval status",
+        "description": "",
+        "line": 78,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Quote_TC_014",
+            "line": 77
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I should navigate to response CPQ application",
+            "line": 79,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 32190
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Dashboard page succesfully",
+            "line": 80,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on quote icon in dashboard page",
+            "line": 81,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on any existing quote link under draft quotes section",
+            "line": 82,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Quote Title\"",
+            "line": 83,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I change the address street two and click on save button",
+            "line": 84,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get address street two from the current page",
+            "line": 85,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on submit button",
+            "line": 86,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the status for the respective draft quote",
+            "line": 87,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on \"Reject\" button in edit quote page",
+            "line": 88,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Show Reject\"",
+            "line": 89,
+            "match": {
+              "location": "C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/step_match.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

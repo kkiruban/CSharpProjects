@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="94771" started-at="2017-07-26T12:54:55Z" finished-at="2017-07-26T12:56:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="94771" started-at="2017-07-26T12:54:55Z" finished-at="2017-07-26T12:56:30Z">
+      <class name="com.testng.sample.toGetDropDownValues">
+        <test-method status="PASS" signature="loginsalesforceapp()[pri:0, instance:com.testng.sample.toGetDropDownValues@548e7350]" name="loginsalesforceapp" duration-ms="94737" started-at="2017-07-26T18:24:55Z" finished-at="2017-07-26T18:26:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginsalesforceapp -->
+      </class> <!-- com.testng.sample.toGetDropDownValues -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,14 @@
+package APItesting.com.org.api;
+
+import org.testng.annotations.Test;
+
+public class WheatherGetRequest {
+	
+	//simple get request
+	@Test
+	public void test(){
+		
+	}
+	
+
+}

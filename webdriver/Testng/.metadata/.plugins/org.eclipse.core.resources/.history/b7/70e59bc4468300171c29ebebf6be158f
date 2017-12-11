@@ -1,0 +1,38 @@
+package intervviewjava;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+
+public class HashmapIterator {
+
+	public static void main(String[] args) {
+		
+		
+		Map<String, Integer> map=new HashMap<>();
+		
+		map.put("ONE", 1);
+		map.put("Two", 2);
+		map.put("Three", 3);
+		map.put("four", 4);
+		map.put("five", 5);
+		
+		Set<String> setofkeys=map.keySet();
+		
+		Iterator<String> it = setofkeys.iterator();
+		
+		while (it.hasNext()) {
+			String key = (String) it.next();
+			
+			System.out.println(key);
+			
+			Integer value= (Integer)map.get(key);
+			
+			System.out.println(value);
+			
+		}
+
+	}
+
+}

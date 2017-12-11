@@ -1,0 +1,17 @@
+package BasicWebdriverCommands;
+
+import java.sql.DriverManager;
+
+import org.testng.annotations.Test;
+
+public class DatabaseConnection {
+  
+	@Test
+  public void f() {
+	
+		
+		DriverManager.getConnection("", "", "");
+		
+  }
+	
+}

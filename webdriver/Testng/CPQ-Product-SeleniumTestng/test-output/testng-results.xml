@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="184288" started-at="2017-09-08T12:31:21Z" finished-at="2017-09-08T12:34:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="184288" started-at="2017-09-08T12:31:21Z" finished-at="2017-09-08T12:34:25Z">
+      <class name="Com.CPQ.Tests.Sample">
+        <test-method status="PASS" signature="launchingbrowser()[pri:0, instance:Com.CPQ.Tests.Sample@42dafa95]" name="launchingbrowser" is-config="true" duration-ms="12346" started-at="2017-09-08T18:01:21Z" finished-at="2017-09-08T18:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowser -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:Com.CPQ.Tests.Sample@42dafa95]" name="logintest" duration-ms="48197" started-at="2017-09-08T18:01:33Z" data-provider="loginusercredentials" finished-at="2017-09-08T18:02:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kirubanand]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ramasamy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:Com.CPQ.Tests.Sample@42dafa95]" name="quitbrowser" is-config="true" duration-ms="1601" started-at="2017-09-08T18:02:21Z" finished-at="2017-09-08T18:02:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+        <test-method status="PASS" signature="launchingbrowser()[pri:0, instance:Com.CPQ.Tests.Sample@42dafa95]" name="launchingbrowser" is-config="true" duration-ms="6145" started-at="2017-09-08T18:02:23Z" finished-at="2017-09-08T18:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowser -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:Com.CPQ.Tests.Sample@42dafa95]" name="logintest" duration-ms="48038" started-at="2017-09-08T18:02:29Z" data-provider="loginusercredentials" finished-at="2017-09-08T18:03:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kirutest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ramatest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:Com.CPQ.Tests.Sample@42dafa95]" name="quitbrowser" is-config="true" duration-ms="2241" started-at="2017-09-08T18:03:17Z" finished-at="2017-09-08T18:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+        <test-method status="PASS" signature="launchingbrowser()[pri:0, instance:Com.CPQ.Tests.Sample@42dafa95]" name="launchingbrowser" is-config="true" duration-ms="15433" started-at="2017-09-08T18:03:19Z" finished-at="2017-09-08T18:03:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowser -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:Com.CPQ.Tests.Sample@42dafa95]" name="logintest" duration-ms="49013" started-at="2017-09-08T18:03:35Z" data-provider="loginusercredentials" finished-at="2017-09-08T18:04:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[salesonemanager@positiveedgedemo01.onmicrosoft.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass@word1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:Com.CPQ.Tests.Sample@42dafa95]" name="quitbrowser" is-config="true" duration-ms="1229" started-at="2017-09-08T18:04:24Z" finished-at="2017-09-08T18:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- Com.CPQ.Tests.Sample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,91 @@
+what is a constructor?
+rules for creating java constructor?
+what is encapsulation in java?
+advantages of encapsulation in java?
+
+what is binding?
+what is polymorphism in java?
+what is upcasting? give an example?
+what is superkeyword?
+what is this this keyword?
+what is final keyword?
+what is abstraction?
+what is abstract class in java?
+what is inhertiance?
+what is static keyword?
+what is hash map?
+differnce between abstract class and interface?
+what is java collections?
+differnce between arraylist and linked list?
+differnce between list and set?
+diffenece between string and string buffer?
+
+
+
+Can we overload main() method?
+
+Yes, You can have many main() methods in a class by overloading the main method.
+
+
+Why we cannot override static method?
+
+It is because the static method is the part of class and it is bound with class whereas instance method is bound with object and static gets memory in class area and instance gets memory in heap.
+
+
+Can you declare the main method as final?
+
+Yes, such as, public static final void main(String[] args){}.
+
+ Why multiple inheritance is not supported in java?
+
+To reduce the complexity and simplify the language, multiple inheritance is not supported in java in case of class.more details...
+
+
+
+Which class is the superclass for every class.
+
+Object class.
+
+
+Does constructor return any value?
+
+Ans:yes, that is current instance (You cannot use return type yet it returns a value)
+
+Is constructor inherited?
+
+No, constructor is not inherited.
+
+
+What is difference between object oriented programming language and object based programming language?
+
+Object based programming languages follow all the features of OOPs except Inheritance. Examples of object based programming languages are JavaScript, VBScript etc.
+
+Can we execute a program without main() method?
+
+Ans) Yes, one of the way is static block
+
+
+How many types of memory areas are allocated by JVM?
+
+Many types:
+
+Class(Method) Area
+Heap
+Stack
+Program Counter Register
+Native Method Stack
+
+
+how to take a screenshot in selenium webdriver?
+if you want to take automation screenshot on failures?
+how to handle mouse and keyboard action through selenium webdriver?
+
+methods in action class?
+how to handle multiple windows?
+how can i run parallel test using testng?
+how to do grouping?
+how to handle untrusted certificate for firefox?
+
+how can i run parallel test using testng?
+how to do grouping?
+how to handle untrusted certificate for firefox?

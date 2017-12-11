@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;java.interview.questions.NoOfoccurenceint.java&apos; to &apos;CountFrequencies.java&apos;&#x0D;&#x0A;- Original project: &apos;InterviewQuestionsJava&apos;&#x0D;&#x0A;- Original element: &apos;java.interview.questions.NoOfoccurenceint.java&apos;&#x0D;&#x0A;- Renamed element: &apos;java.interview.questions.CountFrequencies.java&apos;" description="Rename compilation unit &apos;NoOfoccurenceint.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;java.interview.questions{NoOfoccurenceint.java" name="CountFrequencies.java" references="false" stamp="1502357675062" version="1.0"/>
+</session>

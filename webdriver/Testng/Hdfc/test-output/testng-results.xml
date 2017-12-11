@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37403" started-at="2013-12-28T06:21:48Z" finished-at="2013-12-28T06:22:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37403" started-at="2013-12-28T06:21:48Z" finished-at="2013-12-28T06:22:25Z">
+      <class name="com.Hdfc.recharge.Nakurifileupload">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.Hdfc.recharge.Nakurifileupload@472b644e]" name="f" duration-ms="37370" started-at="2013-12-28T11:51:48Z" finished-at="2013-12-28T11:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.Hdfc.recharge.Nakurifileupload -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

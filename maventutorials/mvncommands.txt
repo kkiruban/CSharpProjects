@@ -1,0 +1,23 @@
+maven commands:
+
+
+to run maven profile
+maven command
+
+mvn clean test -P t1
+
+to run maven by id
+
+mvn clean install -DsuiteFiles=testng1.xml
+
+mvn clean install -DsuiteFiles=testng1.xml
+
+
+Mvn clean compile
+
+mvn clean install -Dsurefire.suiteXmlFiles=testng.xml
+mvn clean test -Dsurefire.suiteFiles=testng.xml
+
+
+mvn eclipse:clean eclipse:eclipse
+mvn eclipse:clean eclipse:eclipse -U

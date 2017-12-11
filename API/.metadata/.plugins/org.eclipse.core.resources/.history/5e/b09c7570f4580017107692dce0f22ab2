@@ -1,0 +1,12 @@
+package com.org.RestApi;
+
+import org.testng.annotations.Test;
+
+public class SampleGetRequest {
+  
+	@Test
+  public void f() {
+	  
+	  
+  }
+}

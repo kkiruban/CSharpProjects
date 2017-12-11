@@ -1,0 +1,50 @@
+package BasicWebdriverCommands;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterMethod;
+
+public class basicWebdriverCommands {
+
+	public static WebDriver driver;
+	
+	
+	@BeforeMethod
+	public void beforeMethod() {
+		//to launch a firefox browser
+		 driver = new FirefoxDriver();
+		 //naviagte to salesforce url  
+		 driver.get("https://test.salesforce.com/");
+		 //implicit wait method
+		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		 // selenium command to maximize the browser
+		 driver.manage().window().maximize();
+		 
+		 //to pass username in text box
+		 driver.findElement(By.id("username")).sendKeys("dsintegration-admin@servicesource.com.sitnxtqlik");
+		//to pass username in text box
+		 driver.findElement(By.id("password")).sendKeys("srevds123!");
+		 //to perform click action on login button
+		 driver.findElement(By.name("Login")).click();
+		 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	}
+
+	@Test
+	public void createaccount() {
+		
+		
+	}
+
+	@AfterMethod
+	public void afterMethod() {
+		
+		
+	}
+
+}
