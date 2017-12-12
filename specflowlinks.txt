@@ -1,9 +1,0 @@
-spec flow
-http://specflow.org/getting-started/
-http://specflow.org/guidance/first-steps/
-http://toolsqa.com/specflow/set-up-specflow/
-https://github.com/myuzhang/TestReport.Net
-http://specflow.org/getting-started/
-https://specflow.org/plus/documentation/SpecFlowPlus-Runner-Server-Data/
-https://specflow.org/plus/documentation/Tutorial:-Customising-Reports/
-https://bitbucket.org/mk_meros/webautomation/src/46ec2badbff7282c1a649075fbfafb18c0d89269?at=master

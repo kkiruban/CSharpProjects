@@ -1,1 +1,0 @@
-https://github.com/techtalk/SpecFlow-Examples/tree/master/ASP.NET-MVC/BookShop
